@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+.hidden
+{
+	display: none;
+}
+body
+{
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+}
+#siteContainer
+{
+	width:1920px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	width:1920px;
+	height: 190px;
+	background-color: #cccccc;
+	display: flex;
+	flex-direction: row;
+}
+#logo
+{
+	width:234px;
+	height: 180px;
+	background-color: #666666;
+	margin-left:153px;
+}
+#mainNav
+{
+	width: 1018px;
+	height: 63px;
+	background-color: #999999;
+	margin-bottom: 68px;
+	margin-left: 167px;
+	margin-top:68px;
+
+}
+#indexPage
+{
+	width: 1920px;
+	height: 1090px;
+	background-color: #eaeaea;
+	display: flex;
+	flex-direction: column;
+}
+#WelcomeText
+{
+	width: 1150px;
+	height: 90px;
+	background-color:#999999;
+	margin-top: 185px;
+	margin-left:405px;
+}
+#IntroText
+{
+	width:1225px;
+	height:284px;
+	background-color: #999999;
+	margin-top:260px;
+	margin-left:360px;
+}
+#aboutPage
+{
+	width: 1920px;
+	height: 1745px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+#aboutPage h1
+{
+	width:890px;
+	height: 180px;
+	background-color: #999999;
+	margin-left:530px;
+	margin-top:83px;
+	margin-bottom:35px;
+
+}
+.aboutContent 
+{
+	width:1675px;
+	height: 155px;
+	display:flex;
+	flex-direction: row;
+	margin-left: 133px;
+	margin-bottom:50px;
+}
+
+.aboutContent p
+{
+	width:1463px;
+	height: 150px;
+	background-color: #999999;
+	margin:50px;
+}
+.aboutIcon
+{
+	width: 150px;
+	height: 150px;
+	background-color: #666666;
+	margin:50px;
+}
+#aboutButton
+{
+	display:flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+.greenButton
+{
+	width:355px;
+	height: 87px;
+	background-color: #999999;
+	margin-left: 600px;
+}
+.greyButton
+{
+	width:355px;
+	height: 87px;
+	background-color: #999999;
+	margin-left: 70px;
+}
+
+#membership
+{
+	width:1920px;
+	height: 340px;
+	display: flex;
+	flex-direction: row;
+	background-color:#999999;
+}
+#membershipText
+{
+	margin-left:150px;
+}
+#membershipText h2
+{
+	background-color: #c9c9c9;
+	width: 850px;
+	height:75px;
+	margin-top:30px;
+	margin-bottom:45px;
+}
+#membershipText p
+{
+	background-color: #c9c9c9;
+	width: 1000px;
+	height:150px;
+}
+
+#membership img
+{
+	width:405px;
+	height:405px;
+	border-radius: 50%;
+	background-color: #666666;
+	margin-left:170px;
+	margin-bottom:20px;
+}
+/*End of Membership*/
+/*Begin of Events*/
+#eventPage
+{
+	width:1920px;
+	height:2100px;
+	background-color: #ebebeb;
+	display:flex;
+	flex-direction: column;
+}
+#eventPage h1
+{
+	width:525px;
+	height:115px;
+	margin-top:85px;
+	margin-left:700px;
+	background-color: #999999;
+}
+#firstEvent
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 85px;
+}
+#anotherEvents
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin:85px;
+
+}
+.event
+{
+	width:530px;
+	height:700px;
+	background-color: #e1e1e1;
+	display: flex;
+	flex-direction: column;
+}
+
+.event img
+{
+	width:530px;
+	height: 385px;
+	background-color: #666666;
+}
+.event p
+{
+	width:490px;
+	height:150px;
+	background-color: #c9c9c9;
+	margin-top:30px;
+	margin-left: 20px;
+}
+
+.eventButton
+{
+	width:240px;
+	height:70px;
+	background-color: #666666;
+	margin-left:30px;
+	margin-top:30px;
+}
+
+#bigEventButton
+{
+	width:500px;
+	height:85px;
+	background-color: #666666;
+	justify-content: center;
+	margin-left: 700px;
+}
+
+
+
+
+
+
