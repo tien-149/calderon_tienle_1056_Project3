@@ -25,15 +25,15 @@ body
 }
 #logo
 {
-	width:140px;
-	height: 130px;
+	width:172px;
+	height: 138px;
 	background-color: #666666;
 	margin-left:100px;
 }
 #mainNav
 {
-	width: 730px;
-	height:38px;
+	width: 723px;
+ 	height: 45px;
 	background-color: #999999;
 	margin-bottom: 68px;
 	margin-left: 300px;
@@ -45,23 +45,23 @@ body
 #indexPage
 {
 	width: 1366px;
-	height: 783px;
+	height: 772px;
 	background-color: #eaeaea;
 	display: flex;
 	flex-direction: column;
 }
 #WelcomeText
 {
-	width: 847px;
-	height: 70px;
+	width: 820px;
+	height: 69px;
 	background-color:#999999;
 	margin-top: 150px;
 	margin-left:280px;
 }
 #IntroText
 {
-	width:870px;
-	height:200px;
+	width:876px;
+	height:204px;
 	background-color: #999999;
 	margin-top:188px;
 	margin-left:237px;
@@ -78,8 +78,8 @@ body
 }
 #aboutPage h1
 {
-	width:620px;
-	height: 130px;
+	width:623px;
+	height: 131px;
 	background-color: #999999;
 	margin-left:400px;
 	margin-top:73px;
@@ -98,7 +98,7 @@ body
 
 .aboutContent p
 {
-	width:1025px;
+	width:1020px;
 	height: 110px;
 	background-color: #999999;
 	margin-left:45px;
@@ -106,8 +106,8 @@ body
 }
 .aboutIcon
 {
-	width: 100px;
-	height: 100px;
+	width: 107px;
+	height: 110px;
 	background-color: #666666;
 	margin-top:15px;
 }
@@ -137,7 +137,7 @@ body
 #membership
 {
 	width:1366px;
-	height: 260px;
+	height: 266px;
 	display: flex;
 	flex-direction: row;
 	background-color:#999999;
@@ -163,8 +163,8 @@ body
 
 #membership img
 {
-	width:270px;
-	height:270px;
+	width:286px;
+	height:285px;
 	border-radius: 50%;
 	background-color: #666666;
 	margin-left:100px;
@@ -175,15 +175,15 @@ body
 #eventPage
 {
 	width:1366px;
-	height:1460px;
+	height:1487px;
 	background-color: #ebebeb;
 	display:flex;
 	flex-direction: column;
 }
 #eventPage h1
 {
-	width:370px;
-	height:80px;
+	width:373px;
+	height:84px;
 	margin-top:55px;
 	margin-left:532px;
 	background-color: #999999;
@@ -205,7 +205,7 @@ body
 }
 .event
 {
-	width:380px;
+	width:375px;
 	height:510px;
 	background-color: #e1e1e1;
 	display: flex;
@@ -215,13 +215,13 @@ body
 .event img
 {
 	width:380px;
-	height: 278px;
+	height: 276px;
 	background-color: #666666;
 }
 .event p
 {
-	width:341px;
-	height:95px;
+	width:348px;
+	height:109px;
 	background-color: #c9c9c9;
 	margin-top:5px;
 	margin-left: 20px;
@@ -229,8 +229,8 @@ body
 
 .eventButton
 {
-	width:175px;
-	height:49px;
+	width:171px;
+	height:47px;
 	background-color: #666666;
 	margin-left:25px;
 	margin-top:25px;
@@ -238,8 +238,8 @@ body
 
 #bigEventButton
 {
-	width:380px;
-	height:65px;
+	width:359px;
+	height:59px;
 	background-color: #666666;
 	justify-content: center;
 	margin-left: 485px;
