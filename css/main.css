@@ -11,174 +11,181 @@ body
 }
 #siteContainer
 {
-	width:1920px;
+	width:1366px;
 	margin: 0 auto;
 }
-
+/*Begin of header*/
 #mainHeader
 {
-	width:1920px;
-	height: 190px;
+	width:1366px;
+	height: 139px;
 	background-color: #cccccc;
 	display: flex;
 	flex-direction: row;
 }
 #logo
 {
-	width:234px;
-	height: 180px;
+	width:140px;
+	height: 130px;
 	background-color: #666666;
-	margin-left:153px;
+	margin-left:100px;
 }
 #mainNav
 {
-	width: 1018px;
-	height: 63px;
+	width: 730px;
+	height:38px;
 	background-color: #999999;
 	margin-bottom: 68px;
-	margin-left: 167px;
-	margin-top:68px;
+	margin-left: 300px;
+	margin-top:62px;
 
 }
+/*End of Header*/
+/*Begin of index page*/
 #indexPage
 {
-	width: 1920px;
-	height: 1090px;
+	width: 1366px;
+	height: 783px;
 	background-color: #eaeaea;
 	display: flex;
 	flex-direction: column;
 }
 #WelcomeText
 {
-	width: 1150px;
-	height: 90px;
+	width: 847px;
+	height: 70px;
 	background-color:#999999;
-	margin-top: 185px;
-	margin-left:405px;
+	margin-top: 150px;
+	margin-left:280px;
 }
 #IntroText
 {
-	width:1225px;
-	height:284px;
+	width:870px;
+	height:200px;
 	background-color: #999999;
-	margin-top:260px;
-	margin-left:360px;
+	margin-top:188px;
+	margin-left:237px;
 }
+/*End of index page*/
+/*Begin of About page*/
 #aboutPage
 {
-	width: 1920px;
-	height: 1745px;
+	width: 1366px;
+	height: 1250px;
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
 }
 #aboutPage h1
 {
-	width:890px;
-	height: 180px;
+	width:620px;
+	height: 130px;
 	background-color: #999999;
-	margin-left:530px;
-	margin-top:83px;
-	margin-bottom:35px;
+	margin-left:400px;
+	margin-top:73px;
+	margin-bottom:40px;
 
 }
 .aboutContent 
 {
-	width:1675px;
-	height: 155px;
+	width:1170px;
+	height: 108px;
 	display:flex;
 	flex-direction: row;
-	margin-left: 133px;
+	margin-left: 100px;
 	margin-bottom:50px;
 }
 
 .aboutContent p
 {
-	width:1463px;
-	height: 150px;
+	width:1025px;
+	height: 110px;
 	background-color: #999999;
-	margin:50px;
+	margin-left:45px;
+	margin-top: 10px;
 }
 .aboutIcon
 {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	background-color: #666666;
-	margin:50px;
+	margin-top:15px;
 }
 #aboutButton
 {
 	display:flex;
 	flex-direction: row;
 	margin-top: 80px;
+	margin-bottom:74px;
 }
 .greenButton
 {
-	width:355px;
-	height: 87px;
+	width:250px;
+	height: 60px;
 	background-color: #999999;
-	margin-left: 600px;
+	margin-left: 428px;
 }
 .greyButton
 {
-	width:355px;
-	height: 87px;
+	width:250px;
+	height: 60px;
 	background-color: #999999;
-	margin-left: 70px;
+	margin-left: 55px;
 }
-
+/*End of about page*/
+/*Begin of membership*/
 #membership
 {
-	width:1920px;
-	height: 340px;
+	width:1366px;
+	height: 260px;
 	display: flex;
 	flex-direction: row;
 	background-color:#999999;
 }
 #membershipText
 {
-	margin-left:150px;
+	margin-left:60px;
 }
 #membershipText h2
 {
 	background-color: #c9c9c9;
 	width: 850px;
 	height:75px;
-	margin-top:30px;
-	margin-bottom:45px;
+	margin-top:10px;
+	margin-bottom:20px;
 }
 #membershipText p
 {
 	background-color: #c9c9c9;
-	width: 1000px;
-	height:150px;
+	width: 870px;
+	height:142px;
 }
 
 #membership img
 {
-	width:405px;
-	height:405px;
+	width:270px;
+	height:270px;
 	border-radius: 50%;
 	background-color: #666666;
-	margin-left:170px;
+	margin-left:100px;
 	margin-bottom:20px;
 }
 /*End of Membership*/
 /*Begin of Events*/
 #eventPage
 {
-	width:1920px;
-	height:2100px;
+	width:1366px;
+	height:1460px;
 	background-color: #ebebeb;
 	display:flex;
 	flex-direction: column;
 }
 #eventPage h1
 {
-	width:525px;
-	height:115px;
-	margin-top:85px;
-	margin-left:700px;
+	width:370px;
+	height:80px;
+	margin-top:55px;
+	margin-left:532px;
 	background-color: #999999;
 }
 #firstEvent
@@ -186,20 +193,20 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 85px;
+	margin: 60px;
 }
 #anotherEvents
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin:85px;
+	margin:50px;
 
 }
 .event
 {
-	width:530px;
-	height:700px;
+	width:380px;
+	height:510px;
 	background-color: #e1e1e1;
 	display: flex;
 	flex-direction: column;
@@ -207,35 +214,35 @@ body
 
 .event img
 {
-	width:530px;
-	height: 385px;
+	width:380px;
+	height: 278px;
 	background-color: #666666;
 }
 .event p
 {
-	width:490px;
-	height:150px;
+	width:341px;
+	height:95px;
 	background-color: #c9c9c9;
-	margin-top:30px;
+	margin-top:5px;
 	margin-left: 20px;
 }
 
 .eventButton
 {
-	width:240px;
-	height:70px;
+	width:175px;
+	height:49px;
 	background-color: #666666;
-	margin-left:30px;
-	margin-top:30px;
+	margin-left:25px;
+	margin-top:25px;
 }
 
 #bigEventButton
 {
-	width:500px;
-	height:85px;
+	width:380px;
+	height:65px;
 	background-color: #666666;
 	justify-content: center;
-	margin-left: 700px;
+	margin-left: 485px;
 }
 
 
