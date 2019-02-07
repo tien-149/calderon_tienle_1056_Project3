@@ -353,7 +353,7 @@ body
 
 .contact h3
 {
-	width: 1020px;
+	width: 930px;
 	height: 25px;
 	background-color: #999999;
 	margin: 0 auto;
@@ -393,7 +393,6 @@ body
 {
 	width: 725px;
 	height: 60px;
-/*	background-color: black;*/
 	margin: 0 auto;
 	margin-top: 80px;
 	display: flex;
