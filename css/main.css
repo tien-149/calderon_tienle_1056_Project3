@@ -66,8 +66,8 @@ body
 	margin-top:188px;
 	margin-left:237px;
 }
-/*End of index page*/
-/*Begin of About page*/
+/*-----------End of index page-----------*/
+/*------------Begin of About page---------*/
 #aboutPage
 {
 	width: 1366px;
@@ -76,7 +76,7 @@ body
 	display: flex;
 	flex-direction: column;
 }
-#aboutPage h1
+#aboutPage h2
 {
 	width:623px;
 	height: 131px;
@@ -132,8 +132,8 @@ body
 	background-color: #999999;
 	margin-left: 55px;
 }
-/*End of about page*/
-/*Begin of membership*/
+/*=============End of about page==============*/
+/*=============Begin of membership============*/
 #membership
 {
 	width:1366px;
@@ -146,7 +146,7 @@ body
 {
 	margin-left:60px;
 }
-#membershipText h2
+.membershipH3
 {
 	background-color: #c9c9c9;
 	width: 850px;
@@ -161,7 +161,7 @@ body
 	height:142px;
 }
 
-#membership img
+.membershipImg
 {
 	width:286px;
 	height:285px;
@@ -170,8 +170,8 @@ body
 	margin-left:100px;
 	margin-bottom:20px;
 }
-/*End of Membership*/
-/*Begin of Events*/
+/* ----------------End of Membership*-------/
+/*-------------------Begin of Events------*/
 #eventPage
 {
 	width:1366px;
@@ -180,7 +180,7 @@ body
 	display:flex;
 	flex-direction: column;
 }
-#eventPage h1
+#eventPage h2
 {
 	width:373px;
 	height:84px;
@@ -212,7 +212,7 @@ body
 	flex-direction: column;
 }
 
-.event img
+.eventImg
 {
 	width:380px;
 	height: 276px;
@@ -292,7 +292,7 @@ body
 	background-color: #ffffff;
 }
 
-.projectsImg img
+.img
 {
 	width: 275px;
 	height: 275px;
@@ -313,13 +313,119 @@ body
 {
 	height: 56px;
 	width: 234px;
-	background-color: black;
+	background-color: #272727;
 	margin-top: 75px; 
-	margin-left: 50px;
+	margin-left: 60px;
 }
 
 
 /* ------------- END PROJECTS SECTION---------*/
+
+/*----------CONTACT SECTION-------------*/
+
+
+.contact
+{
+	width: 1366px;
+	height: 1659px;
+	background-color: #ebebeb;
+	padding-top: 70px;
+}
+
+.contact h2
+{
+	height: 65px;
+	width: 440px;
+	background-color: #999999;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.contactInfo
+{
+	width: 705px;
+	height: 110px;
+	background-color: #c9c9c9;
+	margin: 0 auto;
+	margin-bottom: 160px;
+}
+
+.contact h3
+{
+	width: 1020px;
+	height: 25px;
+	background-color: #999999;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.meetings
+{
+	width: 950px;
+	height: 215px;
+	background-color: #c9c9c9;
+	margin: 0 auto;
+	margin-bottom: 135px;
+}
+
+.formCon
+{
+	width: 915px;
+	height: 670px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-top: 65px;
+	padding-bottom: 80px;
+}
+
+.sendMessage
+{
+	width: 260px;
+	height: 25px;
+	background-color: #999999;
+	margin-left: 100px;
+	margin-bottom: 70px;
+}
+
+.form
+{
+	width: 725px;
+	height: 60px;
+/*	background-color: black;*/
+	margin: 0 auto;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.name, .email, .phone, .subject
+{
+	width: 345px;
+	height: 60px;
+	background-color: #666666;
+}
+
+.message
+{
+	width: 725px;
+	height: 155px;
+	background-color: #666666;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.formButton
+{
+	width: 200px;
+	height: 60px;
+	background-color: #272727;
+	margin-left: 150px;
+	margin-top: 50px;
+}
 
 
 
